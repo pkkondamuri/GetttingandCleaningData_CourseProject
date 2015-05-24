@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Getting and Cleaning Data - Course Project
 
 ##Synopsis
@@ -28,6 +27,3 @@ Appropriately labels the data set with descriptive variable names. The original 
 Step 5:
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 The tidy data set is written to a file and uploaded on to the course submission website.
-=======
-# GetttingandCleaningData_CourseProject
->>>>>>> d9e49c93bc0daf68bf4a54524992303bfb42bbd9
