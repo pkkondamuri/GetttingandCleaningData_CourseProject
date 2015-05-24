@@ -26,4 +26,5 @@ Appropriately labels the data set with descriptive variable names. The original 
 
 Step 5:
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-The tidy data set is written to a file and uploaded on to the course submission website.
+The tidy data set is written to a file (tidy_dataset.txt) and uploaded on to the course submission website.
+It can be loaded into R using "read.table("tidy_dataset.txt",header=TRUE)""
