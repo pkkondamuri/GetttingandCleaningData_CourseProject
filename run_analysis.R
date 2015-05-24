@@ -90,5 +90,5 @@ tidy_dataset<-dataset %>% group_by(activity,subject) %>%summarise_each(funs(mean
 write.table(tidy_dataset,"tidy_dataset.txt",row.names=FALSE)
 
 #Verify by loading the tidy dataset from the file created above
-check_tidy<-read.table("tidy_dataset.txt",header=TRUE)
+check_tidy<-read.table("tidy_dataset.txt",header=TRUE,check.names=FALSE)
 
